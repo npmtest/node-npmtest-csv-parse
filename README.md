@@ -1,6 +1,6 @@
 # npmtest-csv-parse
 
-#### test coverage for  [csv-parse (v1.2.0)](http://csv.adaltas.com/parse/)  [![npm package](https://img.shields.io/npm/v/npmtest-csv-parse.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-csv-parse) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-csv-parse.svg)](https://travis-ci.org/npmtest/node-npmtest-csv-parse)
+#### basic test coverage for  [csv-parse (v1.2.0)](http://csv.adaltas.com/parse/)  [![npm package](https://img.shields.io/npm/v/npmtest-csv-parse.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-csv-parse) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-csv-parse.svg)](https://travis-ci.org/npmtest/node-npmtest-csv-parse)
 
 #### CSV parsing implementing the Node.js `stream.Transform` API
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-csv-parse/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-csv-parse/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-csv-parse/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-csv-parse/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-csv-parse/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-csv-parse/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-csv-parse/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-csv-parse/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-csv-parse/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-csv-parse/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-csv-parse/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-csv-parse/build/coverage.html/index.html)
 
@@ -141,7 +141,8 @@
         "pretest": "coffee -b -o lib src",
         "test": "NODE_ENV=test ./node_modules/.bin/mocha --compilers coffee:coffee-script/register --reporter dot"
     },
-    "version": "1.2.0"
+    "version": "1.2.0",
+    "bin": {}
 }
 ```
 
